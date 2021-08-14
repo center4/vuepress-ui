@@ -1,0 +1,25 @@
+$input-height: 32px;
+$border-color: #999;
+$border-color-light: lighten($border-color, 25%);
+$border-color-hover: #666;
+$border-radius: 4px;
+$font-size: 14px;
+$box-shadow-color: rgba(0,0,0,.5);
+$red: #F14350;
+$grey: #eee;
+$button-height: 32px;
+$button-bg: white;
+$button-active-bg: #eee;
+$color: #333;
+
+.box-shadow {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
