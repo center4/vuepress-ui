@@ -6,7 +6,17 @@ module.exports = {
   themeConfig: {
     logo: '/cy.png',
     nav: [
-      {text: '主页', link: '/'},
+      {text: '主页', link: '/', icon: "reco-home"},
+      {
+          text: "工具箱",
+          icon: "iconfont icon-tools",
+          items: [
+              { text: "哔哩哔哩", link: "https://www.bilibili.com/" },
+              { text: "思否", link: "https://segmentfault.com/" },
+              { text: "阿里巴巴矢量图标库", link: "https://www.iconfont.cn/" },
+          ]
+      },
+      {text: "时间线", link: "/timeline/", icon: "reco-date" },
       {text: '文档', link: '/get-started/'},
       {text: 'Github', link: 'https://github.com/center4/vuepress-ui'}
     ],

@@ -10,6 +10,6 @@ features:
   details: 以简洁易上手为中心思想，以简易的配置帮助你构建项目。
 - title: Vue驱动
   details: Vue是一套用于构建用户界面的渐进式JavaScript框架，目前大部分前端人员都在使用。
-footer: MIT Licensed | Copyright © 2020-present cent4
+footer: Liverpool Licensed | Copyright © 2020-present cent4
 ---
 
